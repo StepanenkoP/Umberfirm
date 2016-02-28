@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "MuseoSansCyrl500";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansCyrl500/MuseoSansCyrl.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl500/MuseoSansCyrl.woff") format("woff"), url("../fonts/MuseoSansCyrl500/MuseoSansCyrl.ttf") format("truetype"); }
+@font-face {
+  font-family: "MuseoSansCyrl100";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansCyrl100/MuseoSansCyrl100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl100/MuseoSansCyrl100.woff") format("woff"), url("../fonts/MuseoSansCyrl100/MuseoSansCyrl100.ttf") format("truetype"); }
+@font-face {
+  font-family: "MuseoSansCyrl300";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MuseoSansCyrl300/Museo_Sans_Cyrl_300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl300/Museo_Sans_Cyrl_300.woff") format("woff"), url("../fonts/MuseoSansCyrl300/Museo_Sans_Cyrl_300.ttf") format("truetype"); }
+@font-face {
+  font-family: "CodeProLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CodeProLight/CodeProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/CodeProLight/CodeProLight.woff") format("woff"), url("../fonts/CodeProLight/CodeProLight.ttf") format("truetype"); }
+@font-face {
+  font-family: "Playfair Display Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Playfair Display Italic/PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Playfair Display Italic/PlayfairDisplay-Italic.woff") format("woff"), url("../fonts/Playfair Display Italic/PlayfairDisplay-Italic.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

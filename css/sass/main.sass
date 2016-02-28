@@ -1,0 +1,431 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "MuseoSansCyrl100", sans-serif
+	font-size: 16px
+	position: relative
+	overflow-x: hidden
+	background-color: #fff
+	min-width: 320px
+
+a
+	outline: none !important
+
+//////////// FIRST SECTION
+.top_sect
+	background-color: #F6F6F6
+	padding-bottom: 90px
+	.section_cont
+		padding-top: 224px
+		position: relative
+		width: 1670px
+		margin: auto
+		.img_wrapper
+			display: inline-block
+			vertical-align: top
+			width: 522px
+			img
+				width: 100%
+		.text_wrapper
+			display: inline-block
+			padding-top: 170px
+			width: 835px
+		.sect_header
+			position: absolute
+			text-align: center
+			top: 159px
+			left: 50%
+			margin-left: -119px
+			p
+				margin: 0
+				font-size: em(22px)
+				font-family: "MuseoSansCyrl300", sans-serif
+			h1
+				margin: 0
+				text-transform: uppercase
+				font-family: "CodeProLight", sans-serif
+				font-size: em(45px)
+				letter-spacing: 15px
+.sect_text
+	margin-left: 125px
+	p
+		margin: 0
+	.dark_p
+		font-size: em(15px)
+		font-family: "MuseoSansCyrl500", sans-serif
+		margin-bottom: 20px
+	.light_p
+		font-size: em(15px)
+	&:nth-child(2)
+		margin-top: 75px
+
+///////////////SECOND SECTION
+
+.second_sect
+	background-color: #fff
+	padding-top: 76px
+	padding-bottom: 80px
+	.sect_wrapper
+		width: 1630px
+		margin: auto
+		position: relative
+		.img_wrapper_1
+			display: inline-block
+			width: 413px
+			img
+				width: 100%
+		.img_wrapper_2
+			display: inline-block
+			width: 283px
+			margin-left: 50px
+			vertical-align: top
+			margin-top: 53px
+			img
+				width: 100%
+		.text_wrapper
+			display: inline-block
+			width: 660px
+			vertical-align: top
+			margin-top: 80px
+			position: relative
+			.sect_text
+				margin-left: 65px
+				&:nth-child(2)
+					margin-top: 35px
+			.absolute_text
+				width: 594px
+				text-align: center
+				font-family: "MuseoSansCyrl300", sans-serif 
+				font-size: em(20px)
+				margin-left: 65px
+				margin-top: 90px
+				p
+					margin: 0
+					&:last-child
+						margin-top: 10px
+
+.random_text_wrapper
+	width: 760px
+	margin-left: 529px
+	margin-top: -72px
+	.sect_text
+		margin-left: 0
+
+///////////////// THIRD SECTION
+
+.third_section
+	padding-bottom: 50px
+	.sect_wrapper
+		width: 1460px
+		margin: auto
+		.img_wrapper
+			display: inline-block
+			width: 500px
+			img
+				width: 100%
+		.text_wrapper
+			display: inline-block
+			vertical-align: top
+			margin-top: 190px
+			margin-left: 80px
+			width: 770px
+			.sect_text
+				margin-left: 0
+				&:nth-child(2)
+					margin-top: 40px
+
+.social_buttons
+	margin-top: 75px
+	ul
+		list-style-type: none
+		padding: 0
+		margin: 0
+		li
+			display: inline-block
+			background-color: transparent
+			cursor: pointer
+			transition: background-color .2s ease
+			margin-right: 10px
+			&:first-child
+				&:hover
+					background-color: transparentize(#3B5998, .2)
+				.img_wrapper_2
+					position: relative
+					height: 36px
+					text-align: center
+					padding: 10px
+					a
+						color: #000
+					&:hover
+						.img_cont
+							opacity: 1
+							top: -32px
+							margin-top: 0
+					.img_cont
+						position: absolute
+						top: -9999px
+						left: auto
+						margin-top: -15px
+						right: -95%
+						font-size: 15px
+						padding: 3px 10px
+						background-color: transparentize(#3B5998, .2)
+						opacity: 0
+						transition: opacity .2s ease, margin-top .2s ease
+						&::after
+							position: absolute
+							right: 44%
+							top: 27px
+							content: ""
+							width: 8px
+							height: 8px
+							border-style: solid
+							border-width: 5px 4px 0px
+							border-color: transparentize(#3B5998, .2) transparent transparent
+			&:nth-child(2)
+				&:hover
+					background-color: transparentize(#2CAAE1, .2)
+				.img_wrapper_2
+					position: relative
+					height: 36px
+					text-align: center
+					padding: 10px
+					a
+						color: #000
+					&:hover
+						.img_cont
+							opacity: 1
+							top: -32px
+							margin-top: 0
+					.img_cont
+						position: absolute
+						top: -9999px
+						left: auto
+						margin-top: -15px
+						right: -73%
+						font-size: 15px
+						padding: 3px 10px
+						background-color: transparentize(#2CAAE1, .2)
+						opacity: 0
+						transition: opacity .2s ease, margin-top .2s ease
+						&::after
+							position: absolute
+							right: 47%
+							top: 27px
+							content: ""
+							width: 8px
+							height: 8px
+							border-style: solid
+							border-width: 5px 4px 0px
+							border-color: transparentize(#2CAAE1, .2) transparent transparent
+			&:nth-child(3)
+				@extend li:first-child
+				&:hover
+					background-color: transparentize(#DD4B39, .2)
+				.img_wrapper_2
+					.img_cont
+						background-color: transparentize(#DD4B39, .2)
+						right: -109%
+						width: 110px
+						&::after
+							border-color: transparentize(#DD4B39, .2) transparent transparent
+							right: 47%
+
+
+///////////////////////SLIDER
+
+.slider_sect
+	padding-bottom: 60px
+	border-bottom: 1px solid #E5E5E5
+	.section_wrapper
+		width: 1750px
+		margin: auto
+		.slider_text
+			padding-left: 120px
+			h2
+				font-family: "Playfair Display Italic", sans-serif
+				font-size: em(33px)
+				margin: 0
+				font-weight: normal
+
+.slider_wrapper
+	margin-top: 50px
+	text-align: center
+	.slide_item
+		display: inline-block
+		vertical-align: top
+		position: relative
+		&:last-child
+			margin-right: 0
+		.img_wrapper
+			cursor: pointer
+			img
+				width: 100%
+				height: 100%
+				transition: transform .3s ease
+			&:hover
+				img
+					transform: scale(1.1)
+		.item_text
+			text-align: center
+			margin-top: 35px
+			p
+				margin: 0
+				font-size: em(13px)
+				margin-bottom: 10px
+			.anna_k
+				text-transform: uppercase
+				font-weight: 900
+			.last_p
+				margin-bottom: 0
+
+.owl-controls
+	text-align: center
+	margin-top: 40px
+	.owl-dot
+		width: 7px
+		height: 7px
+		background-color: #ccc
+		display: inline-block
+		margin: 0 3px
+		border-radius: 10em
+		&.active
+			background-color: #262626
+
+
+//////////////// FOOTER
+.bottom_sect
+	padding-top: 65px
+	padding-bottom: 70px
+	.section_wrapper
+		width: 1310px
+		margin: auto
+		.first_text_wrapper
+			margin-left: 0
+			text-align: center
+			width: 295px
+			display: inline-block
+			margin-top: 100px
+			.sect_text
+				margin-left: 0
+				position: relative
+				&::after
+					content: ''
+					position: absolute
+					background-color: #E8DADC
+					width: 1px
+					height: 275px
+					top: -45px
+					right: -60px
+				.dark_p
+					font-weight: 900
+					font-size: em(13px)
+					text-transform: uppercase
+				.light_p
+					font-size: em(12px)
+					.phone
+						margin-top: 5px
+
+.new_collect_wrapper
+	display: inline-block
+	vertical-align: top
+	width: 450px
+	margin-left: 120px
+	position: relative
+	&::after
+		content: ''
+		position: absolute
+		background-color: #E8DADC
+		width: 1px
+		height: 275px
+		top: 55px
+		right: -60px
+	.coll_text
+		display: inline-block
+		width: 203px
+		text-align: center
+		padding-top: 63px
+		.sect_text
+			width: 100%
+			margin-top: 0
+			margin-left: 0
+			.dark_p
+				font-family: "Playfair Display Italic", sans-serif
+				font-size: em(33px)
+				text-transform: none
+				font-weight: normal
+			.light_p
+				font-size: em(14px)
+
+.gucci_img_wrapper
+	display: inline-block
+	vertical-align: top
+	float: right
+
+.email_wrapper
+	display: inline-block
+	vertical-align: top
+	width: 320px
+	text-align: center
+	padding-top: 56px
+	margin-left: 110px
+	.sect_text
+		margin-top: 0
+		margin-left: 0
+		.dark_p
+			font-size: em(13px)
+			text-transform: uppercase
+		.light_p
+			font-size: em(12px)
+
+.main_form
+	height: 63px
+	margin-top: 60px
+	font-size: em(12px)
+	width: 100%
+	.email
+		width: 220px
+		border: 1px solid #E8DADC
+		height: 100%
+		padding-left: 73px
+	.button
+		width: 100px
+		background-color: #E8DADC
+		color: #5E5A5B
+		float: right
+		height: 100%
+		text-align: center
+		font-weight: 700
+		text-transform: uppercase
+		text-decoration: none
+		border: none
+
+//////////FOOTER LINE
+
+.main_footer
+	.footer_wrapper
+		width: 1643px
+		margin: auto
+		padding-bottom: 30px
+		.copy
+			text-transform: uppercase
+			float: left
+			color: #C6C6C6
+			font-size: em(13px)
+		.main_mnu
+			float: right
+			font-size: em(14px)
+			ul
+				padding: 0
+				margin: 0
+				list-style-type: none
+				li
+					display: inline-block
+					margin-right: 60px
+					&:last-child
+						margin-right: 0
+					a
+						text-decoration: none
+						color: #898989
+
+
