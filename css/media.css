@@ -1,7 +1,7 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1670px) {
+@media only screen and (max-width : 1750px) {
 	.top_sect .section_cont {
 		width: 90% !important;
 	}
